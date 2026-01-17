@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+
+.cardContainer {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 35vw;
+  border-radius: 20px;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'roboto';
+}
+
+.description {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 15px;
+}
+
+.btn {
+  padding: 5px;
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.des {
+  font-family: 'roboto';
+  color: #334155;
+  font-size: 13px;
+}
